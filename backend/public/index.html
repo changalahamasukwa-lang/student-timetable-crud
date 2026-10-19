@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Timetable & Goals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <div>
+        <h1>Student Timetable & Goals</h1>
+        <p>Manage your courses, class times and study goals.</p>
+      </div>
+      <button id="theme-toggle" class="secondary" type="button" aria-label="Toggle theme">Light mode</button>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <h2 id="form-title">Add a course</h2>
+      <form id="course-form">
+        <input type="hidden" id="course-id">
+        <div class="form-grid">
+          <label>Course code<input id="course_code" required maxlength="20" placeholder="e.g. ICT251"></label>
+          <label>Course name<input id="course_name" required maxlength="150" placeholder="e.g. Web Technologies"></label>
+          <label>Day<select id="day_of_week" required><option value="">Choose day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select></label>
+          <label>Start time<input id="start_time" type="time" required></label>
+          <label>End time<input id="end_time" type="time" required></label>
+          <label>Venue<input id="venue" required maxlength="100" placeholder="e.g. Computer Lab 1"></label>
+          <label class="wide">Study goal (optional)<input id="goal" maxlength="255" placeholder="What do you want to achieve?"></label>
+        </div>
+        <div class="actions"><button type="submit" id="save-button">Save course</button><button type="button" id="cancel-button" class="secondary" hidden>Cancel edit</button></div>
+      </form>
+      <p id="message" role="status"></p>
+    </section>
+    <section class="panel">
+      <div class="list-heading"><h2>Your timetable</h2><button id="refresh-button" class="secondary">Refresh</button></div>
+      <div class="table-wrap"><table><thead><tr><th>ID</th><th>Course</th><th>Day</th><th>Time</th><th>Venue</th><th>Study goal</th><th>Actions</th></tr></thead><tbody id="course-list"><tr><td colspan="7">Loading records...</td></tr></tbody></table></div>
+    </section>
+  </main>
+  <footer>ICT251 · Node.js CRUD Assignment</footer>
+  <script src="app.js"></script>
+</body>
+</html>
