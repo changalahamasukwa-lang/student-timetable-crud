@@ -1,0 +1,112 @@
+[
+  {
+    "id": 11,
+    "course_code": "ICT 251",
+    "course_name": "Web Technologies",
+    "day_of_week": "Monday",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "venue": "my room",
+    "goal": "to learn web tech"
+  },
+  {
+    "id": 1,
+    "course_code": "ICT251",
+    "course_name": "Web Technologies",
+    "day_of_week": "Monday",
+    "start_time": "08:00:00",
+    "end_time": "10:00:00",
+    "venue": "Computer Lab 1",
+    "goal": "Practise HTML, CSS and JavaScript"
+  },
+  {
+    "id": 2,
+    "course_code": "CSC201",
+    "course_name": "Data Structures",
+    "day_of_week": "Monday",
+    "start_time": "10:30:00",
+    "end_time": "12:30:00",
+    "venue": "Lecture Room A",
+    "goal": "Review linked lists"
+  },
+  {
+    "id": 3,
+    "course_code": "MAT201",
+    "course_name": "Discrete Mathematics",
+    "day_of_week": "Tuesday",
+    "start_time": "08:00:00",
+    "end_time": "10:00:00",
+    "venue": "Lecture Room B",
+    "goal": "Solve logic exercises"
+  },
+  {
+    "id": 4,
+    "course_code": "CSC202",
+    "course_name": "Database Systems",
+    "day_of_week": "Tuesday",
+    "start_time": "10:30:00",
+    "end_time": "12:30:00",
+    "venue": "Computer Lab 2",
+    "goal": "Practise SQL queries"
+  },
+  {
+    "id": 5,
+    "course_code": "ICT252",
+    "course_name": "Networking",
+    "day_of_week": "Wednesday",
+    "start_time": "08:00:00",
+    "end_time": "10:00:00",
+    "venue": "Lab 3",
+    "goal": "Revise subnetting"
+  },
+  {
+    "id": 6,
+    "course_code": "CSC203",
+    "course_name": "Object-Oriented Programming",
+    "day_of_week": "Wednesday",
+    "start_time": "10:30:00",
+    "end_time": "12:30:00",
+    "venue": "Computer Lab 1",
+    "goal": "Write Java classes"
+  },
+  {
+    "id": 7,
+    "course_code": "ENG201",
+    "course_name": "Communication Skills",
+    "day_of_week": "Thursday",
+    "start_time": "08:00:00",
+    "end_time": "10:00:00",
+    "venue": "Lecture Room C",
+    "goal": "Prepare presentation"
+  },
+  {
+    "id": 8,
+    "course_code": "CSC204",
+    "course_name": "Computer Architecture",
+    "day_of_week": "Thursday",
+    "start_time": "10:30:00",
+    "end_time": "12:30:00",
+    "venue": "Lecture Room A",
+    "goal": "Revise CPU components"
+  },
+  {
+    "id": 9,
+    "course_code": "ICT253",
+    "course_name": "Systems Analysis",
+    "day_of_week": "Friday",
+    "start_time": "08:00:00",
+    "end_time": "10:00:00",
+    "venue": "Lecture Room B",
+    "goal": "Draw use-case diagrams"
+  },
+  {
+    "id": 10,
+    "course_code": "CSC205",
+    "course_name": "Algorithms",
+    "day_of_week": "Friday",
+    "start_time": "10:30:00",
+    "end_time": "12:30:00",
+    "venue": "Computer Lab 2",
+    "goal": "Practise sorting algorithms"
+  }
+]
