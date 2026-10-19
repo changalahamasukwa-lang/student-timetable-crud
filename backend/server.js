@@ -214,4 +214,5 @@ app.listen(PORT, async () => {
     console.log('MySQL unavailable. Using local fallback timetable store.');
   }
   console.log(`Student Timetable API running at http://localhost:${PORT}`);
-});
+});  
+   app.use(express.static(path.join(__dirname, 'public')));
